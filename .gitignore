@@ -1,0 +1,21 @@
+﻿# FRONTEND
+frontend/node_modules/
+frontend/.env
+frontend/build/
+frontend/dist/
+frontend/.vite/
+
+# BACKEND
+backend/venv/
+backend/.venv/
+backend/env/
+backend/.env
+backend/__pycache__/
+backend/*.pyc
+
+# GENERAL
+.env
+.DS_Store
+.vscode/
+.idea/
+*.log

@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
+    "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+code {
+  font-family:
+    source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.react-flow__node input,
+.react-flow__node select {
+  width: 100%;
+  background-color: #1c1734;
+  border: 1px solid #4f46e5;
+  border-radius: 6px;
+  color: white;
+  padding: 6px 10px;
+  font-size: 12px;
+  margin-top: 4px;
+  margin-bottom: 8px;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.react-flow__node input:focus,
+.react-flow__node select:focus {
+  border-color: #a78bfa;
+  box-shadow: 0 0 0 2px rgba(167, 139, 250, 0.2);
+}
+
+.react-flow__node label {
+  color: #c4b5fd;
+  font-size: 11px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+button {
+  border-radius: 9999px;
+  padding: 10px 24px;
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  background: linear-gradient(90deg, #5b21b6 0%, #2f0336 100%);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.3),
+    0 4px 10px rgba(147, 51, 234, 0.3);
+  transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+  transform: translateY(-1px);
+  filter: brightness(1.1);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.4),
+    0 6px 15px rgba(147, 51, 234, 0.5);
+}
+
+button:active {
+  transform: translateY(1px);
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.2);
+}
